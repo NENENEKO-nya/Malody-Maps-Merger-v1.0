@@ -115,7 +115,7 @@ def GetInfo():
     GetRestButton.place(x=110,y=170)
 
     #创建输入制作者标签和输入框,获取制作者
-    CreatorTip=tk.Label(root,text="input title")
+    CreatorTip=tk.Label(root,text="input creator")
     CreatorTip.place(x=0,y=190)
     CreatorEntry=tk.Entry(root)
     CreatorEntry.place(width=100,x=0,y=210)
@@ -127,7 +127,7 @@ def GetInfo():
 
 
     #创建输入标题标签和输入框,获取标题
-    TitleTip=tk.Label(root,text="input creator")
+    TitleTip=tk.Label(root,text="input title")
     TitleTip.place(x=0,y=230)
     TitleEntry=tk.Entry(root)
     TitleEntry.place(width=100,x=0,y=250)
